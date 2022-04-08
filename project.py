@@ -22,10 +22,10 @@ print(total_pop)
 number_of_cities = len(pop_cities)
 
 # finding the average population of these cities 
-a = total_pop/number_of_cities
-print(a)
+avg_pop = total_pop/number_of_cities
+print(avg_pop)
  
  #using a function to find the average population in millions 
-def pop_in_milions(a):
-	return (a/1000000)
-print(pop_in_milions(a))
+def pop_in_milions(avg_pop):
+	return (avg_pop/1000000)
+print(pop_in_milions(avg_pop))
