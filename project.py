@@ -28,4 +28,4 @@ print(avg_pop)
  #using a function to find the average population in millions 
 def pop_in_milions(avg_pop):
 	return (avg_pop/1000000)
-print(pop_in_milions(avg_pop))
+print(pop_in_milions(avg_pop)) 
